@@ -42,7 +42,7 @@ public class FileStore {
         return storeFileResult;
     }
 
-    private String getFullPath(String storeFileName) {
+    public String getFullPath(String storeFileName) {
         return fileDir + storeFileName;
     }
 
